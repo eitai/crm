@@ -1,0 +1,123 @@
+.customerInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  position: relative;
+  padding: 2rem;
+  min-height: 35rem;
+  form {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  input {
+    width: 40%;
+  }
+
+  input::placeholder {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 5rem;
+    color: #0855a4;
+    font-weight: 800;
+  }
+
+  .id {
+    font-weight: 800;
+  }
+
+  .idLabel {
+    font-weight: 800;
+  }
+
+  strong {
+    font-weight: 800;
+  }
+
+  .editIcon {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  select {
+    background-image: url('../../assets/down-arrow-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.2rem;
+    width: 7rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+
+  .acceptEdit {
+    fill: green;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    cursor: pointer;
+  }
+}
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 4rem 2rem;
+  @media only screen and (max-width: 900px) {
+    background-color: rgb(255 255 255 / 60%);
+    border-radius: 5px;
+  }
+
+  &:nth-child(3) {
+    border-left: 3px solid #33333359;
+  }
+  &:first-child {
+    border-left: 3px solid #33333359;
+  }
+  height: 80%;
+}
+
+.header_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.border_bottom {
+  border-bottom: 1.7px solid #444444;
+}
+.detail_container {
+  margin: 11px 0;
+}
+
+.cover_img {
+  height: 30rem;
+}
+.right_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  div {
+    width: 100%;
+    margin: 5px 0px;
+  }
+}

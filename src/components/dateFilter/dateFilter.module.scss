@@ -1,0 +1,15 @@
+.dateFilter {
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+
+  select {
+    background-image: url("../../assets/down-arrow-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.2rem;
+    width: 9rem;
+    padding: 0.2rem;
+  }
+}

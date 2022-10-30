@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: #fff;
+
+  position: relative;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  .subtitles {
+    color: var(--gray-002);
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .fileList {
+    align-self: flex-start;
+    padding: 1rem;
+  }
+
+  .addFile {
+    font-size: 1.8rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}

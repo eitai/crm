@@ -1,0 +1,42 @@
+.filter {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-bottom: 0;
+  padding: 1rem 0;
+  background-color: #fff;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: var(--box-shadow-soft);
+  height: 100%;
+  .date {
+    background-image: url('../../assets/down-arrow-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.2rem;
+    width: 7rem;
+    display: flex;
+  }
+
+  .nameFilter {
+    border: 1px solid #333;
+    border-radius: 3px;
+    width: 10rem;
+    height: 2.5rem;
+    padding-right: 0.3rem;
+    font-size: 1.4rem;
+
+    &::placeholder {
+      color: rgba(102, 102, 102, 0.438);
+    }
+  }
+
+  .productContainer {
+    position: relative;
+
+    .product {
+      cursor: pointer;
+    }
+  }
+}

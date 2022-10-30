@@ -1,0 +1,25 @@
+.container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow-soft);
+  height: 89vh;
+  position: relative;
+}
+
+.moveToCustomer_btn {
+  cursor: pointer;
+}
+
+.btn_container {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: rgb(39, 119, 118);
+  padding: 10px 15px;
+  box-shadow: var(--box-shadow-soft);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 1;
+}

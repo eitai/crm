@@ -1,0 +1,16 @@
+.btn {
+  margin-left: 10px;
+  background-color: #eeeeee;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.active_tab {
+  background-color: #fff;
+  transform: scale(1.03);
+  box-shadow: var(--box-shadow-soft);
+}

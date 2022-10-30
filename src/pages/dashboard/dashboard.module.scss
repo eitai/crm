@@ -1,0 +1,45 @@
+.dashboardContainer {
+  display: flex;
+
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    flex: 1;
+  }
+}
+
+.dashboard_container {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.sendMessage_container {
+  display: flex;
+}
+
+.sendMessage_box1 {
+  width: 50%;
+  height: 35rem;
+  background-color: #fff;
+  box-shadow: var(--box-shadow-soft);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sendMessage_box2 {
+  @extend .sendMessage_box1;
+  margin-left: unset;
+}
+
+.dashboard_header {
+  height: 35rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}

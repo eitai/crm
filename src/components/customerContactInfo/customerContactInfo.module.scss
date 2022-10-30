@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: #fff;
+
+  padding: 2rem 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  .subtitles {
+    color: var(--gray-002);
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  .phone {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    .whatsapp {
+      fill: #25d366;
+      cursor: pointer;
+    }
+    .phoneIcon {
+      fill: #075e54;
+      cursor: pointer;
+    }
+  }
+  .email {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .emailIcon {
+      cursor: pointer;
+    }
+  }
+}

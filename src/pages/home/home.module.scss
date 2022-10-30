@@ -1,0 +1,19 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 80%;
+    height: 80%;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-hard);
+    background-image: url("../../assets/northfolk-Ok76F6yW2iA-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: scaleX(-1);
+  }
+}

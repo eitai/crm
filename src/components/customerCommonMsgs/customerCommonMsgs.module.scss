@@ -1,0 +1,34 @@
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  .subtitles {
+    color: var(--gray-002);
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .list {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    line-height: 1.4;
+
+    li {
+      display: flex;
+      width: 15rem;
+      justify-content: space-between;
+    }
+
+    .icon:not(:last-child) {
+      margin-left: 0.8rem;
+    }
+
+    .whatsapp {
+      fill: #25d366;
+    }
+  }
+}

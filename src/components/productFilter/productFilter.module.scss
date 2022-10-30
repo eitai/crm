@@ -1,0 +1,31 @@
+.productFilter {
+  padding: 3rem;
+  width: 30rem;
+  position: absolute;
+  background-color: var(--gray-001);
+  left: -15rem;
+  top: 150%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      border-bottom: 1px solid #333;
+      cursor: default;
+    }
+
+    select {
+      background-image: url("../../assets/down-arrow-svgrepo-com.svg");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 1.2rem;
+      width: 7rem;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+}

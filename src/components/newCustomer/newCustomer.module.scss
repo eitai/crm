@@ -1,0 +1,91 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.418);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .innerContainer {
+    width: 40%;
+    height: 40%;
+    background-color: #fff;
+    position: relative;
+    z-index: 101;
+    background-image: url('../../assets/Register-img.jpg');
+    background-size: cover;
+    background-position: right;
+
+    display: flex;
+    border-radius: 8px;
+  }
+
+  .exitBtn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 0 0.3rem;
+  }
+
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-soft);
+    background-color: #fff;
+    overflow: hidden;
+    padding: 5px;
+  }
+
+  label {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  input {
+    background-color: white;
+    padding: 0.5rem;
+    width: 12rem;
+    border-bottom: 0.5px solid #333;
+  }
+
+  select {
+    background-image: url('../../assets/down-arrow-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.2rem;
+    width: 7rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+
+  .btn {
+    background-color: rgba(175, 12, 12, 0.87);
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0.4rem 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,38 @@
+.singleCustomer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  &:nth-of-type(even) {
+    background-color: var(--gray-001);
+  }
+  .name {
+    width: 5rem;
+    font-weight: 700;
+  }
+
+  .id {
+    width: 8rem;
+  }
+
+  .address {
+    width: 16rem;
+  }
+
+  .email {
+    width: 16rem;
+  }
+
+  .phone {
+    width: 14rem;
+  }
+
+  .icon-box {
+    width: 18rem;
+  }
+
+  .button {
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
